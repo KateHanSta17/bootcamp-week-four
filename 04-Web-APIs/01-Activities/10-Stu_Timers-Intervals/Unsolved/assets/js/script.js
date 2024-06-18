@@ -6,12 +6,12 @@ const message =
 const words = message.split(' ');
 
 function countdown() {
-  const timeLeft = 5;
+  let timeLeft = 5;
 
   // TODO: Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
-  const timeInterval = setInterval(function () {
-    //
-    // YOUR CODE HERE
+  const timerInterval = setInterval(function () {
+    // secondsLeft--;
+    // timerEl.textContent = secondsLeft +
     //
   });
 }
